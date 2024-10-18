@@ -1,17 +1,21 @@
-https://education.github.com/git-cheat-sheet-education.pdf
+### git-handbook
 
-git --version
+Pdf Resource: [git-cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-download git
+List of steops
 
-git init
-
-git add
-
-git commit
-
-git config --global user.email "you@example.com"
-
+- git --version
+	- download git
+- git init
+- git add
+- git commit
+	- git config --global user.email "you@example.com"
+- create repo on github
+	- create a token
+- push an existing repository from the command line, copy the commands below
+- git remote add origin https://github.com/guilhermemoraes1/git-handbook.git
+- gitt branch -M main
+- git push -u origin main
 
 
 git init
@@ -77,8 +81,6 @@ create alias
 git config --global alias.co "checkout"
 
 git co example_branch
-
-
 
 
 https://discuss.codecademy.com/t/what-is-the-difference-between-checkout-and-reset/405720
